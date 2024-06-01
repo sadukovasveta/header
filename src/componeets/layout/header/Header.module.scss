@@ -1,0 +1,53 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  padding-block: 20px;
+  background: rgba(111, 16, 130, 0.542);
+  background: linear-gradient(
+    90deg,
+    rgba(111, 16, 130, 0.559) 0%,
+    rgba(32, 107, 227, 0.575) 46%,
+    rgba(102, 207, 228, 0.73) 77%
+  );
+  backdrop-filter: blur(3px);
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav {
+      ul {
+        display: flex;
+        gap: 33px;
+        justify-content: center;
+        align-items: center;
+        li {
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      button {
+        cursor: pointer;
+        width: 90px;
+        padding: 8px;
+        border-radius: 15px;
+        color: white;
+        font-weight: 800;
+        background: rgb(255, 188, 81);
+        border: none;
+      }
+    }
+  }
+}

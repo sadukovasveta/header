@@ -1,0 +1,45 @@
+.sect {
+  .more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text {
+      display: block;
+      align-items: center;
+
+      margin-left: 100px;
+      h2 {
+        color: rgb(226, 52, 52);
+        font-weight: 700;
+        font-size: 18px;
+      }
+      h1 {
+        width: 290px;
+        color: rgb(133, 120, 133);
+        font-size: 50px;
+        font-weight: 100;
+        span {
+          color: rgb(92, 14, 98);
+        }
+      }
+      p {
+        padding: 10px 0;
+        width: 360px;
+        color: rgb(133, 120, 133);
+        font-size: 14px;
+      }
+      button {
+        border: none;
+        background: none;
+        color: rgb(92, 14, 98);
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: 700;
+      }
+    }
+    .img {
+      padding: 40px 0;
+      margin-left: 250px;
+    }
+  }
+}

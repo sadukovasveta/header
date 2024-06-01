@@ -1,0 +1,87 @@
+.content {
+  z-index: 2;
+  background: url("../../../assets/Vector\ 1.svg") no-repeat center / cover;
+  height: 850px;
+  .text {
+    padding: 240px 0;
+    display: grid;
+    align-items: center;
+    gap: 30px;
+    p {
+      color: white;
+      font-family: monospace;
+      font-size: 54px;
+      font-weight: 100;
+      width: 500px;
+    }
+    h1 {
+      color: white;
+      font-family: monospace;
+      font-size: 18px;
+      font-weight: 100;
+      width: 600px;
+    }
+    button {
+      cursor: pointer;
+      width: 140px;
+      padding: 8px;
+      border-radius: 4px;
+      color: white;
+      font-weight: 800;
+      background: rgba(255, 255, 255, 0.434);
+      border: none;
+    }
+  }
+  .photo {
+    z-index: 4;
+    img {
+      margin-top: -700px;
+    }
+
+    .monitor {
+      width: 950px;
+      margin-left: 350px;
+    }
+
+    .laptop {
+      margin-left: 100px;
+      padding: 40px 0;
+    }
+  }
+  .aside2 {
+    margin-left: 700px;
+    margin-top: 50px;
+  }
+  .more {
+    display: block;
+    align-items: center;
+    justify-content: end;
+    margin-left: 750px;
+    margin-top: 100px;
+
+    h1 {
+      color: grey;
+      font-family: monospace;
+      font-size: 40px;
+      font-weight: 100;
+      width: 600px;
+      span {
+        color: rgb(92, 14, 98);
+      }
+    }
+    p {
+      padding: 20px 0;
+      width: 470px;
+      color: rgb(133, 120, 133);
+      font-size: 18px;
+    }
+    button {
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: rgb(92, 14, 98);
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.sect {
+  z-index: 2;
+  background: url("../../../assets//Rectangle\ 5.svg") no-repeat center / cover;
+  padding: 200px 0;
+  .more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text {
+      z-index: 20;
+      display: block;
+      align-items: center;
+      margin-top: 100px;
+      margin-left: 100px;
+
+      h1 {
+        width: 460px;
+        color: white;
+        font-size: 50px;
+        font-weight: 100;
+        span {
+          color: rgb(176, 19, 187);
+        }
+      }
+      p {
+        padding: 20px 0;
+        width: 400px;
+        color: white;
+        font-size: 16px;
+      }
+    }
+    .img {
+      margin-left: 100px;
+    }
+  }
+  .list {
+    margin-top: 120px;
+    margin-left: 155px;
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    height: 150px;
+    background: white;
+    gap: 50px;
+    padding: 0 80px;
+    h1 {
+      color: rgb(133, 120, 133);
+      font-size: 40px;
+      font-weight: 100;
+      span {
+        color: rgb(176, 19, 187);
+      }
+    }
+    button {
+      background: rgb(255, 188, 81);
+      width: 190px;
+      height: 40px;
+      color: white;
+      font-weight: 700;
+      border: none;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
